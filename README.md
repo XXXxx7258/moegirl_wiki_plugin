@@ -2,8 +2,6 @@
 
 为 MaiBot / 麦麦提供一个 `moegirl_lookup` Tool，用于在聊天过程中查询萌娘百科词条、补充主词条信息，并附带相关语境条目。
 
-仓库地址：<https://github.com/XXXxx7258/moegirl_wiki_plugin>
-
 ## 功能特性
 
 - 基于萌娘百科 Action API 查询词条
@@ -54,9 +52,7 @@ git clone https://github.com/XXXxx7258/moegirl_wiki_plugin.git
 
 ## 配置说明
 
-> **不要手动创建 `config.toml`。**
->
-> 插件配置会由 MaiBot 根据 `config_schema` 自动生成。
+> 插件配置会在 MaiBot 重启时候根据 `config_schema` 自动生成。
 
 首次加载插件后，会在插件目录下自动生成 `config.toml`，然后你再按需编辑。
 
@@ -187,17 +183,6 @@ cookie_string = "完整 Cookie 头"
 2. 词条B
 简介：……
 链接：……
-```
-
----
-
-## 开发与验证
-
-如果你是在 **MaiBot 宿主工程** 中开发或联调本插件，请在 **MaiBot 工程根目录** 运行：
-
-```bash
-uv run python -m pytest tests/test_moegirl_tool_plugin.py -q
-uv run ruff check plugins/moegirl_wiki_plugin tests/test_moegirl_tool_plugin.py
 ```
 
 ---
