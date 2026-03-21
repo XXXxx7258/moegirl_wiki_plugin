@@ -1,8 +1,8 @@
 {
   "manifest_version": 1,
-  "name": "萌娘百科 Tool 插件",
+  "name": "萌娘百科插件",
   "version": "1.0.0",
-  "description": "为麦麦提供萌娘百科知识补充 Tool",
+  "description": "为麦麦提供萌娘百科知识补充",
   "author": {
     "name": "晴空",
     "url": "https://github.com/XXXxx7258"
