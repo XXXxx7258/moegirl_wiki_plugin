@@ -48,6 +48,12 @@ git clone https://github.com/XXXxx7258/moegirl_wiki_plugin.git
 
 建议最终目录名保持为 `moegirl_wiki_plugin`。
 
+插件所需依赖：
+
+```bash
+pip install brotli
+```
+
 ---
 
 ## 配置说明
